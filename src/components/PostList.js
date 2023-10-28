@@ -10,7 +10,7 @@ function PostList({ posts }) {
     <div className="post-list">
       <h2>List of posts for rent</h2>
       <label>
-        Filter by number of rooms:
+        Posts:
         <select >
           <option value="all">All</option>
         </select>
