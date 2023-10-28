@@ -1,0 +1,176 @@
+.user-profile {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    padding-bottom: 5px;
+   
+}
+  
+.user-image {
+    position: relative;
+    margin-right: 20px;
+   
+}
+  
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+  
+.file-upload-button {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+  
+.user-info {
+    flex: 1;
+}
+  
+.user-info label {
+    font-weight: bold;
+}
+  
+.user-info .user-name, .user-info .user-email, .user-info .user-phone {
+    margin-bottom: 10px;
+}
+  
+.user-info .user-phone {
+    margin-bottom: 20px;
+}
+
+.profileEdit{
+    padding-left: 20px;
+}
+
+  
+  
+input[type="file"]{
+    margin-right:520px;
+    cursor: pointer;
+    border: none;
+}
+  
+.user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+  
+.user-name, .user-email {
+    margin: 10px 0;
+}
+  
+label {
+    font-weight: bold;
+}
+  
+input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+
+}
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.editButton{
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 4px;
+    width: 16%;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.newApartment{
+    padding: 20px;
+}
+
+.apartmentCard{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 260px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.user-apartments{
+    padding: 20px;
+}
+
+.addButton{
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 4px;
+    width: 10%;
+    margin-bottom: 20px;
+    padding: 5px;
+    
+    margin-top: 15px;
+}
+
+.editApartmentButton{
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 4px;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 5px;
+    
+    margin-top: 15px;
+}
+
+.deleteApartmentButton{
+    background-color: #d42424;
+    border-color: #d42424;
+    border-radius: 4px;
+    width: 40%;
+    margin-left: 20px;
+    padding: 5px;
+    
+    margin-top: 15px;
+}
+
+.updateApartmentButton{
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 4px;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 5px;
+    
+    margin-top: 15px;
+}
+
+.imageForApartment{
+    padding-top: 15px;
+}
+.newApartmentDetails{
+    margin-right: 10px;
+    
+}
+
+.post-name {
+    width: 40%;
+}

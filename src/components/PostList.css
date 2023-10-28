@@ -1,0 +1,77 @@
+
+.post-list {
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+  .post-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .post-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .post-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .post-card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  
+  .post-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+
+ 
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  input[type="text"] {
+    margin-top: 15px;
+    width: 100px;
+  }
+  .maxPrice{
+    margin-left:15px;
+  }
+  input[type="number"]{
+    margin-left: 15px;
+  }
+
+  .filterRooms{
+    margin-left: 15px;
+  }
+  
+
+
+.search{
+  width: 30%;
+  margin-left: 300px;
+}
